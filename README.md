@@ -1,2 +1,2 @@
 # Boylad.github.io
- guankui.name
+ www.guankui.name
