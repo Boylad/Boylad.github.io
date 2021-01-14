@@ -1,2 +1,2 @@
 # Boylad.github.io
- MyBlog
+ guankui.name
