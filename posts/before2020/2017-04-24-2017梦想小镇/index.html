@@ -185,7 +185,7 @@
       repo: `boylad.github.io`,  
       owner: 'Boylad',   
       admin: ['Boylad'],  
-      id: window.location.pathname, 
+      id: decodeURI(window.location.pathname), 
         });
       gitalk.render('gitalk-container');
 </script> 
