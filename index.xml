@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Boylad</title>
+    <link>https://guankui.name/</link>
+    <description>Recent content on Boylad</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 24 Apr 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://guankui.name/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>https://guankui.name/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://guankui.name/about/</guid>
+      <description>Hi there 👋 I’m Boylad👽{&#34;x&#34;:{&#34;options&#34;:{&#34;crs&#34;:{&#34;crsClass&#34;:&#34;L.CRS.EPSG3857&#34;,&#34;code&#34;:null,&#34;proj4def&#34;:null,&#34;projectedBounds&#34;:null,&#34;options&#34;:{}}},&#34;calls&#34;:[{&#34;method&#34;:&#34;addTiles&#34;,&#34;args&#34;:[&#34;//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#34;,null,null,{&#34;minZoom&#34;:0,&#34;maxZoom&#34;:18,&#34;tileSize&#34;:256,&#34;subdomains&#34;:&#34;abc&#34;,&#34;errorTileUrl&#34;:&#34;&#34;,&#34;tms&#34;:false,&#34;noWrap&#34;:false,&#34;zoomOffset&#34;:0,&#34;zoomReverse&#34;:false,&#34;opacity&#34;:1,&#34;zIndex&#34;:1,&#34;detectRetina&#34;:false,&#34;attribution&#34;:&#34;&amp;copy; OpenStreetMap contributors, CC-BY-SA&#34;}]},{&#34;method&#34;:&#34;addMarkers&#34;,&#34;args&#34;:[36.1605465284,120.4929949936,null,null,null,{&#34;interactive&#34;:true,&#34;draggable&#34;:false,&#34;keyboard&#34;:true,&#34;title&#34;:&#34;&#34;,&#34;alt&#34;:&#34;&#34;,&#34;zIndexOffset&#34;:0,&#34;opacity&#34;:1,&#34;riseOnHover&#34;:false,&#34;riseOffset&#34;:250},&#34;I am Here&#34;,null,null,null,null,{&#34;interactive&#34;:false,&#34;permanent&#34;:false,&#34;direction&#34;:&#34;auto&#34;,&#34;opacity&#34;:1,&#34;offset&#34;:[0,0],&#34;textsize&#34;:&#34;10px&#34;,&#34;textOnly&#34;:false,&#34;className&#34;:&#34;&#34;,&#34;sticky&#34;:true},null]}],&#34;setView&#34;:[[36.1605465284,120.4949949936],3,[]],&#34;limits&#34;:{&#34;lat&#34;:[36.1605465284,36.1605465284],&#34;lng&#34;:[120.4929949936,120.4929949936]}},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}任何足够先进的科技，皆与魔法无异。——阿瑟·克拉克世界观决定方法论，价值观决定人生选择。经过慎重考虑，我决定在魔法的道路上继续探索。
+我的世界观形成于高中时期，得益于我学理科，因为理科的客观实在性，我的世界观非常稳定。从某种意义上讲，我是一个唯物无神论者， 我对于这个世界的认知也大致符合现代科学所定义的范畴。本科阶段我研究经济统计，接受的虽然是通识教育，但我依然对人类社会的组织架构，国家机器的运行，个人职业的选择产生了非常深刻的理解，这在一定程度上决定了我的价值观，以及之后的人生向度。东西方的普世价值诸如德行、仁爱、孝悌、自由、平等、博爱等则是我为人处事的基石。在困难面前，萨特、加缪的存在主义以及尼采的超人哲学给我以力量。
+在求知的道路上，作为人类的平凡个体，我存在的意义是什么？作为浩瀚宇宙的一部分，人类整体存在的终极目的是什么？的问题困扰了我很久。在同智者交谈时，我得到过不同的回答，甚至还有人向我推荐过理查德·道金斯的书——《自私的基因》。在思索这个问题的过程中，我意识到科学最终会成为诺亚方舟，满载着人类文明航行在无尽的寰宇中。
+21 世纪的第三个十年伊始，COVID-19蔓延、大国政治博弈、经济逆全球化、民族主义盛行对科学的发展造成了一定的阻力。如同所有的历史事件一样，这些困难最终也会变得无足轻重，人类文明也将由信息时代迈入智能时代。 小到一个公司，大到一个国家，新商业模式，新技术的出现对现有秩序与格局是一次重新洗牌，而这种机会正是由学界的科学家与业界的企业家通力合作创造出来的。藉由我不错的统计学基础和深度学习方面的经验加之自身的不懈努力，我在努力使自己的人生与这伟大事业合二为一。
+我们的探求定义了我们自身，是我们之所以为人的印记：激情、梦想、挑战与喜忧并存的经历，生命不息前进不止的永恒渴望……</description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>https://guankui.name/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://guankui.name/links/</guid>
+      <description>柯弥林小舟Leo
+</description>
+    </item>
+    
+    <item>
+      <title>TO DO</title>
+      <link>https://guankui.name/todo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://guankui.name/todo/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>梦想小镇</title>
+      <link>https://guankui.name/posts/before2020/2017-04-24-2017%E6%A2%A6%E6%83%B3%E5%B0%8F%E9%95%87/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://guankui.name/posts/before2020/2017-04-24-2017%E6%A2%A6%E6%83%B3%E5%B0%8F%E9%95%87/</guid>
+      <description>K默默数着，五一假期来临的时候，自己在海创园工作刚好满一个月，那也就意味着K来到H城已经两个月了。两个月来，H城对于K来说依旧十分陌生，尽管K曾经有两次成功地帮助过两位问路的异乡人，甚至在看《全职高手》时，K能极其轻易地认出在动漫中一闪而过的这帧画面是H城的什么地方以及作者着眼于画布的视角，但在一个城市生活下去相对容易，想要真正融入其中还是有不少困难的，除非你在出生那刻起就已经是这个城市的一部分了。
+融入一座城市，接纳这个城市所蕴含的种种元素理念，虽不至于像让一个教徒改变信仰那么极端，但是文化融合过程中所产生的碰撞摩擦还是很明显的，或多或少。在这个过程中，一个人会成长，会蜕变，也可能会迷失，会堕落。从很多方面K都能看到自己并不是一个热衷于接受新事物的人，这种不热衷可能是进化出来的一种保护机制，但这也往往让K失去了很多机会。不过，相对于机会成本来说，时间的流逝更让K感到深深的恐惧，而这种恐惧必将持续终生。
+梦想小镇, 仓前周末的时候K搬到了The Dream Town，这是一个很有特色的小镇，年轻人很多，为梦想而来。有一次，K甚至在一个十字路口看到某座大楼上挂着一条横幅——“致敬那些不曾放弃飞翔的人&amp;quot;。有时候K会想，或许当年美国西部发现金矿时，那些淘金者临时组建的小镇差不多也是这个样子吧。小镇上有一个很不错的书舍，有一所刚建成的大学，还有一群不曾放弃飞翔的鸟儿在此筑巢。“天赐食于鸟，而不投食于巢”，既然想飞，就飞得高点吧，如果不能飞翔，就尽快堕落吧。
+不出意外的话，接下来的很长一段时间，Mr.K都会生活在这个小镇上，或许这是很重要的一年，或许这只是普通的一年。</description>
+    </item>
+    
+  </channel>
+</rss>
