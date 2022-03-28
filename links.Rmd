@@ -6,7 +6,7 @@ time: false
 image:
   credit:
   creditlink:
-  feature: https://gitee.com/boylad/img_host/raw/master/BG/blade_runner_01.jpg
+  feature: https://polymath.obs.cn-east-3.myhuaweicloud.com/guankui.name/blade_runner_01_BG.jpg
 reading_time: false
 type: page
 weight: -1

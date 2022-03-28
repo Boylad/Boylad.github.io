@@ -6,7 +6,7 @@ time: false
 image:
   credit: Hogwarts
   creditlink: 'https://aminoapps.com/c/harry-potter/page/blog/im-still-waiting-my-hogwarts-letter/8eTm_uaegxeXJrbVW0P1qEbj1DvqL'
-  feature: https://gitee.com/boylad/img_host/raw/master/BG/about_Hogwarts.png
+  feature: https://polymath.obs.cn-east-3.myhuaweicloud.com/guankui.name/about_Hogwarts_BG.png
 reading_time: false
 type: page
 weight: -1
