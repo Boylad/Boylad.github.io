@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Hi there 👋  I'm `Boylad``r emo::ji("alien")`
 
-```{r echo=FALSE, fig.width=100%, fig.height=100%}
+```{r echo=FALSE, fig.width=15%, fig.height=100%}
 library(leaflet)
 leaflet() %>% addTiles() %>%
   setView(120.4949949936, 36.1605465284, zoom = 3) %>%
