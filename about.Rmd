@@ -14,13 +14,13 @@ weight: -1
 
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, fig.align = 'center')
+knitr::opts_chunk$set(echo = TRUE, fig.align = 'center', out.width="100%")
 ```
 
 
 ### Hi there 👋  I'm `Boylad``r emo::ji("alien")`
 
-```{r echo=FALSE}, fig.width=100%
+```{r echo=FALSE, fig.height=3}
 library(leaflet)
 leaflet() %>% addTiles() %>%
   setView(120.4949949936, 36.1605465284, zoom = 3) %>%
