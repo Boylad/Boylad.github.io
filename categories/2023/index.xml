@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2023 on PolymaX</title>
+    <link>https://guankui.name/categories/2023/</link>
+    <description>Recent content in 2023 on PolymaX</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 10 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://guankui.name/categories/2023/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023，为了忘却的记忆</title>
+      <link>https://guankui.name/posts/2023/2023-01-01-diary/</link>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://guankui.name/posts/2023/2023-01-01-diary/</guid>
+      <description>1月31日 </description>
+    </item>
+    
+  </channel>
+</rss>
