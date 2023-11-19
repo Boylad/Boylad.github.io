@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2023 on Vinedá</title>
-    <link>https://guankui.name/categories/2023/</link>
-    <description>Recent content in 2023 on Vinedá</description>
+    <title>BookNote on Vinedá</title>
+    <link>https://guankui.name/tags/booknote/</link>
+    <description>Recent content in BookNote on Vinedá</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 19 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://guankui.name/categories/2023/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://guankui.name/tags/booknote/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>《掌控习惯》读书笔记</title>
       <link>https://guankui.name/posts/2023/2023-11-19-atomic-habits/</link>

@@ -37,7 +37,7 @@
     <meta property="og:image" content="https://polymath.obs.cn-east-3.myhuaweicloud.com/guankui.name/bg_main_bladerunner_BG.jpg" />
 
 
-  <meta property="og:updated_time" content="2020-12-31T00:00:00&#43;00:00"/>
+  <meta property="og:updated_time" content="2023-11-19T00:00:00&#43;00:00"/>
 
 
 
@@ -147,6 +147,93 @@
 </div>
 
 <div id="main" role="main">
+
+<article class="hentry">
+  <header>
+    
+    <div class="entry-meta">
+         
+		<span class="entry-date date published updated"><time datetime="2019-05-08 00:00:00 &#43;0000 UTC"><a href="/posts/before2020/2019-05-08-python%E7%94%BB%E5%B0%8F%E7%8C%AA%E4%BD%A9%E5%A5%87/">May 8, 2019</a></time></span>
+        
+        
+    </div>
+    
+	<h1 class="entry-title"><a href="/posts/before2020/2019-05-08-python%E7%94%BB%E5%B0%8F%E7%8C%AA%E4%BD%A9%E5%A5%87/" rel="bookmark" title="Python“画”小猪佩奇" itemprop="url">Python“画”小猪佩奇</a></h1>
+    
+  </header>
+  <div class="entry-content">
+    <p>四月份的时候，学院举办的数学文化节中一项活动是通过编程的方法画一只小猪佩奇。当时我初学Python没多久，知道有一个turtle库可以控制笔触在画布上移动而形成图案。于是我就想着以此来‘画’一只小猪佩奇，作为初学Python编程的一次尝试。</p>
+<figure align="center">
+  <img src="https://polymath.obs.cn-east-3.myhuaweicloud.com/guankui.name/Peppa_Pig_bf2020.jpg" height="300" width="300" title = '小猪佩奇'/>
+</figure>
+<p>对于一个复杂且无规律可循的图案，通过代码控制笔触是匪夷所思的。我意识到可以将每个像素点画出来，这样只需要不断画直线就可以了，但这意味着低效率。为了提高效率，我尝试了并行计算——同时画多条直线，然而我没能成功。从理论上讲这是完全可以实现的，可能是我对Python还不够熟悉吧。</p>
+<p>对于一个复杂且无规律可循的图案，通过代码控制笔触是匪夷所思的。我意识到可以将每个像素点画出来，这样只需要不断画直线就可以了，但这意味着低效率。为了提高效率，我尝试了并行计算——同时画多条直线，然而我没能成功。从理论上讲这是完全可以实现的，可能是我对Python还不够熟悉吧。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> urllib.request
+<span style="color:#f92672">from</span> PIL <span style="color:#f92672">import</span> Image
+<span style="color:#f92672">import</span> turtle
+<span style="color:#f92672">import</span> os
+
+url <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;https://raw.githubusercontent.com/Guankuiliu/image/master/Figure2018/git/Peppa_Pig.jpg&#34;</span>
+name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Peppa_Pig.jpg&#34;</span>
+conn <span style="color:#f92672">=</span> urllib<span style="color:#f92672">.</span>request<span style="color:#f92672">.</span>urlopen(url)
+f <span style="color:#f92672">=</span> open(name,<span style="color:#e6db74">&#39;wb&#39;</span>)
+f<span style="color:#f92672">.</span>write(conn<span style="color:#f92672">.</span>read())
+f<span style="color:#f92672">.</span>close()
+
+im <span style="color:#f92672">=</span> Image<span style="color:#f92672">.</span>open(<span style="color:#e6db74">&#34;Peppa_Pig.jpg&#34;</span>)
+im <span style="color:#f92672">=</span> im<span style="color:#f92672">.</span>resize((<span style="color:#ae81ff">180</span>, <span style="color:#ae81ff">180</span>))
+im <span style="color:#f92672">=</span> im<span style="color:#f92672">.</span>rotate(<span style="color:#ae81ff">90</span>)
+os<span style="color:#f92672">.</span>remove(<span style="color:#e6db74">&#34;Peppa_Pig.jpg&#34;</span>)
+
+width <span style="color:#f92672">=</span> im<span style="color:#f92672">.</span>size[<span style="color:#ae81ff">0</span>]
+height <span style="color:#f92672">=</span> im<span style="color:#f92672">.</span>size[<span style="color:#ae81ff">1</span>]
+im <span style="color:#f92672">=</span> im<span style="color:#f92672">.</span>convert(<span style="color:#e6db74">&#39;RGB&#39;</span>)
+array <span style="color:#f92672">=</span> []
+<span style="color:#66d9ef">for</span> x <span style="color:#f92672">in</span> range(width):
+    <span style="color:#66d9ef">for</span> y <span style="color:#f92672">in</span> range(height):
+        r, g, b <span style="color:#f92672">=</span> im<span style="color:#f92672">.</span>getpixel((x,y))
+        rgb <span style="color:#f92672">=</span> (r<span style="color:#f92672">/</span><span style="color:#ae81ff">255</span>, g<span style="color:#f92672">/</span><span style="color:#ae81ff">255</span>, b<span style="color:#f92672">/</span><span style="color:#ae81ff">255</span>)
+        array<span style="color:#f92672">.</span>append(rgb)
+
+turtle<span style="color:#f92672">.</span>screensize(canvwidth <span style="color:#f92672">=</span> width, canvheight <span style="color:#f92672">=</span> height, bg <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;green&#39;</span>)
+turtle<span style="color:#f92672">.</span>setup(width <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.8</span>, height <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.8</span>)
+t <span style="color:#f92672">=</span> turtle<span style="color:#f92672">.</span>Turtle()
+t<span style="color:#f92672">.</span>shape(<span style="color:#e6db74">&#39;turtle&#39;</span>)
+t<span style="color:#f92672">.</span>color(<span style="color:#e6db74">&#39;black&#39;</span>)
+t<span style="color:#f92672">.</span>speed(<span style="color:#ae81ff">10</span>)
+t<span style="color:#f92672">.</span>penup()
+t<span style="color:#f92672">.</span>goto(<span style="color:#f92672">-</span><span style="color:#ae81ff">500</span>,<span style="color:#ae81ff">250</span>)
+t<span style="color:#f92672">.</span>pensize(<span style="color:#ae81ff">1</span>)
+i_1 <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+
+<span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(width):
+    <span style="color:#66d9ef">while</span> i_1<span style="color:#f92672">&lt;</span>height<span style="color:#f92672">*</span>(j <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>):
+        t<span style="color:#f92672">.</span>pendown()
+        t<span style="color:#f92672">.</span>color(array[i_1])
+        t<span style="color:#f92672">.</span>pencolor(array[i_1])
+        t<span style="color:#f92672">.</span>forward(<span style="color:#ae81ff">1</span>)
+        i_1  <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+    i_1 <span style="color:#f92672">+=</span> height
+    t<span style="color:#f92672">.</span>right(<span style="color:#ae81ff">90</span>)
+    t<span style="color:#f92672">.</span>goto(<span style="color:#f92672">-</span><span style="color:#ae81ff">500</span><span style="color:#f92672">+</span>height,<span style="color:#ae81ff">250</span><span style="color:#f92672">-</span>j<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>)
+    t<span style="color:#f92672">.</span>right(<span style="color:#ae81ff">90</span>)
+             
+    <span style="color:#66d9ef">while</span> i_1 <span style="color:#f92672">&gt;</span> height<span style="color:#f92672">*</span>(j <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>):
+        t<span style="color:#f92672">.</span>pendown()
+        t<span style="color:#f92672">.</span>color(array[i_1])
+        t<span style="color:#f92672">.</span>pencolor(array[i_1])
+        t<span style="color:#f92672">.</span>forward(<span style="color:#ae81ff">1</span>)
+        i_1  <span style="color:#f92672">-=</span> <span style="color:#ae81ff">1</span>
+    t<span style="color:#f92672">.</span>left(<span style="color:#ae81ff">90</span>)
+    t<span style="color:#f92672">.</span>goto(<span style="color:#f92672">-</span><span style="color:#ae81ff">500</span>,<span style="color:#ae81ff">250</span><span style="color:#f92672">-</span>j<span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>)
+    t<span style="color:#f92672">.</span>left(<span style="color:#ae81ff">90</span>)
+</code></pre></div><p>因为效率问题，我将以上代码运行结果用XBox录屏后又用PS进行了倍速处理，32倍速的效果如下：</p>
+<center>
+<iframe  width="100%"  height="300" allow="autoplay; encrypted-media" src="//player.bilibili.com/player.html?aid=62765143&cid=109050637&page=1?rel=0&amp;autoplay=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</center>
+
+  </div>
+</article>
 
 <article class="hentry">
   <header>
@@ -266,37 +353,6 @@
 当所有的容颜都定格成回忆的影子<br>
 <p>在校园的漫步中我失去了这个季节<br>
 像失去所有季节一样，也失去了你<br></p>
-</center>
-  </div>
-</article>
-
-<article class="hentry">
-  <header>
-    
-    <div class="entry-meta">
-         
-		<span class="entry-date date published updated"><time datetime="2014-11-22 00:00:00 &#43;0000 UTC"><a href="/posts/before2020/2014-11-22-%E5%91%8A%E5%88%AB%E7%9A%84%E4%BB%AA%E5%BC%8F/">Nov 22, 2014</a></time></span>
-        
-        
-    </div>
-    
-	<h1 class="entry-title"><a href="/posts/before2020/2014-11-22-%E5%91%8A%E5%88%AB%E7%9A%84%E4%BB%AA%E5%BC%8F/" rel="bookmark" title="告别的仪式" itemprop="url">告别的仪式</a></h1>
-    
-  </header>
-  <div class="entry-content">
-    <center>
-依然怀念水杯滑落的那个上午<br>
-正是那天我失去了你爱的全部<br>
-神谕藏在偷笑圣像背后的虚无<br>
-而你即从我眼前渐渐遁入薄雾<br>
-<p>我被新神呼唤踏向朝圣的迷途<br>
-也曾化而为鸟巡视北方的疆土<br>
-仪式已经开始就永远不会结束<br>
-纵然一度告别却从未变化显著<br></p>
-<p>多年以后<br>
-我离开，从我归来的路<br>
-临冬将至<br>
-新神已被愚昧埋进泥土<br></p>
 </center>
   </div>
 </article>
