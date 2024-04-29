@@ -19,7 +19,6 @@ knitr::opts_chunk$set(echo = TRUE)
 <div markdown="0">
 
 <a href="https://www.comellia.com/" class="btn btn-success">柯弥林</a>
-<a href="https://www.longzf.com/" class="btn btn-warning">小舟</a>
 <a href="https://donglinjia.github.io/angular-website/" class="btn btn-success">Leo</a>
 
 </div>
