@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vinedá</title>
+    <title>Metasphnix</title>
     <link>https://guankui.name/</link>
-    <description>Recent content on Vinedá</description>
+    <description>Recent content on Metasphnix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Sun, 19 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://guankui.name/index.xml" rel="self" type="application/rss+xml" />
@@ -26,7 +26,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://guankui.name/vineda/</guid>
-      <description>7月12日 大一读过米兰·昆德拉的小说，那年觉得他能获诺奖，结果诺奖颁给了莫言。如今老爷子与诺奖再也无缘了。
+      <description>================================ 归档 ================================
+2023年7月12日 大一读过米兰·昆德拉的小说，那年觉得他能获诺奖，结果诺奖颁给了莫言。如今老爷子与诺奖再也无缘了。
 从现在起，我开始谨慎地选择我的生活，我不再轻易让自己迷失，在各种诱惑里。我心中已经听到了来自远方的呼唤，再不需要回过头去关心身后的种种是非与议论。我已无暇顾及过去，我要向前走。——《生命不能承受之轻》
 5月21日 最近越来越离不开ChatGPT了。套用Barrow的话就是：
 一个爱ChatGPT的人，他必定不致于缺少一个忠实的朋友、一个良好的导师、一个可爱的伴侣和一个优婉的宽慰者。
@@ -67,7 +68,7 @@
       
       <guid>https://guankui.name/posts/2023/2023-11-19-atomic-habits/</guid>
       <description>在这本书中，作者认为要想实现有意义的改变，新养成的习惯需要坚持足够长的时间，才能突破无明显变化的潜能积蓄期。然而，复利进程的特征是——最有力的结果总是姗姗来迟，加之短期触手可及的诱惑，大部分人会不由自主地沾染恶习，很难养成持久习惯。并且，为了更好的结果，设定目标（基于结果的改变）似乎并不是必要的，全力落实自身的体系才是正解。而最深层次的、重中之重的则是基于身份的改变，即着眼于希望成为什么样的人，让习惯和身份融为一体。对此，作者提出了培养良好习惯的四步法框架行为转变的四大定律：
-import graphviz h = graphviz.Digraph(node_attr={&amp;#39;color&amp;#39;:&amp;#39;lightblue2&amp;#39;, &amp;#39;style&amp;#39;:&amp;#39;filled&amp;#39;}, encoding=&amp;#39;UTF-8&amp;#39;) h.attr(&amp;#39;node&amp;#39;, fontname=&amp;#39;Fangsong&amp;#39;) h.attr(&amp;#39;edge&amp;#39;, fontname=&amp;#39;Microsoft YaHei&amp;#39;) with h.subgraph(name=&amp;#39;cluster_1&amp;#39;) as f: f.attr(style=&amp;#39;filled&amp;#39;, color=&amp;#39;lightgrey&amp;#39;) f.node_attr.update(style=&amp;#39;filled&amp;#39;, color=&amp;#39;white&amp;#39;) f.edges([(&amp;#39;提示&amp;#39;, &amp;#39;渴求&amp;#39;), (&amp;#39;渴求&amp;#39;, &amp;#39;反应&amp;#39;), (&amp;#39;反应&amp;#39;, &amp;#39;奖励&amp;#39;)]) f.attr(label=&amp;#39;四步法&amp;#39;, fontname=&amp;#39;Fangsong&amp;#39;, fontcolor=&amp;#39;red&amp;#39;) with h.subgraph(name=&amp;#39;cluster_2&amp;#39;) as f: f.attr(color=&amp;#39;blue&amp;#39;) f.node_attr[&amp;#39;style&amp;#39;]=&amp;#39;filled&amp;#39; f.attr(&amp;#39;edge&amp;#39;, style=&amp;#39;dashed&amp;#39;, dir=&amp;#39;none&amp;#39;, color=&amp;#39;red&amp;#39;) f.edges([(&amp;#39;让它显而易见&amp;#39;, &amp;#39;让它有吸引力&amp;#39;), (&amp;#39;让它有吸引力&amp;#39;, &amp;#39;让它简便易行&amp;#39;), (&amp;#39;让它简便易行&amp;#39;, &amp;#39;让它令人愉悦&amp;#39;), (&amp;#39;让它令人愉悦&amp;#39;, &amp;#39;让它显而易见&amp;#39;)]) f.attr(label=&amp;#34;四大定律&amp;#34;, fontname=&amp;#39;Fangsong&amp;#39;, fontcolor=&amp;#39;red&amp;#39;) h.render(&amp;#39;Habit&amp;#39;, format=&amp;#39;svg&amp;#39;, cleanup=True, view=True) 在最后的部分，作者提出了“从单纯的好转向真正的伟大”的策略。简言之就是，充分利用自身的天然禀赋，在生活和工作中保持专注，经常反思和回顾。当然，这所有的一切还需要强烈的“欲望”来驱动。
+import graphviz h = graphviz.Digraph(node_attr={&amp;#39;color&amp;#39;:&amp;#39;lightblue2&amp;#39;, &amp;#39;style&amp;#39;:&amp;#39;filled&amp;#39;}, encoding=&amp;#39;UTF-8&amp;#39;) h.attr(&amp;#39;node&amp;#39;, fontname=&amp;#39;Fangsong&amp;#39;) h.attr(&amp;#39;edge&amp;#39;, fontname=&amp;#39;Microsoft YaHei&amp;#39;) with h.subgraph(name=&amp;#39;cluster_1&amp;#39;) as f: f.attr(style=&amp;#39;filled&amp;#39;, color=&amp;#39;lightgrey&amp;#39;) f.node_attr.update(style=&amp;#39;filled&amp;#39;, color=&amp;#39;white&amp;#39;) f.edges([(&amp;#39;提示&amp;#39;, &amp;#39;渴求&amp;#39;), (&amp;#39;渴求&amp;#39;, &amp;#39;反应&amp;#39;), (&amp;#39;反应&amp;#39;, &amp;#39;奖励&amp;#39;)]) f.attr(label=&amp;#39;四步法&amp;#39;, fontname=&amp;#39;Fangsong&amp;#39;, fontcolor=&amp;#39;red&amp;#39;) with h.subgraph(name=&amp;#39;cluster_2&amp;#39;) as f: f.attr(color=&amp;#39;blue&amp;#39;) f.node_attr[&amp;#39;style&amp;#39;]=&amp;#39;filled&amp;#39; f.attr(&amp;#39;edge&amp;#39;, style=&amp;#39;dashed&amp;#39;, dir=&amp;#39;none&amp;#39;, color=&amp;#39;red&amp;#39;) f.edges([(&amp;#39;让它显而易见&amp;#39;, &amp;#39;让它有吸引力&amp;#39;), (&amp;#39;让它有吸引力&amp;#39;, &amp;#39;让它简便易行&amp;#39;), (&amp;#39;让它简便易行&amp;#39;, &amp;#39;让它令人愉悦&amp;#39;), (&amp;#39;让它令人愉悦&amp;#39;, &amp;#39;让它显而易见&amp;#39;)]) f.attr(label=&amp;#34;四大定律&amp;#34;, fontname=&amp;#39;Fangsong&amp;#39;, fontcolor=&amp;#39;red&amp;#39;) h.render(&amp;#39;Habit&amp;#39;, format=&amp;#39;svg&amp;#39;, cleanup=True, view=True) 在最后的部分，作者提出了“从单纯的好转向真正的伟大”的策略。简言之就是，充分利用自身的天然禀赋，在生活和工作中保持专注，经常反思和回顾。当然，这所有的一切还需要强烈的“欲望”来驱动。
 这里简单谈两点我的感受。其一，虽然在中国文化中，对诸如水滴石穿、绳锯木断；不积跬步无以至千里，不积小流无以成江海；夫祸患常积于忽微，而智勇多困于所溺的故事，我们从小耳熟能详。但知易行难，能证悟的人寥寥无几。其二，三年前有次和朋友聊天，谈起过一个极其自律之人。pope说：“对他（自律者）而言，所谓的习惯，就像呼吸一样，是极其自然的，根本不需要刻意”。深以为然。</description>
     </item>
     
